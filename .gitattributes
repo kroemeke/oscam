@@ -1,0 +1,2 @@
+#pattern  filter=crypt diff=crypt
+config/*  filter=crypt diff=crypt
