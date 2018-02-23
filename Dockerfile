@@ -3,5 +3,5 @@ FROM alpine:latest
 RUN apk --no-cache add oscam
 ADD config/ /etc/oscam/
 USER oscam
-EXPOSE 15000 15001
+EXPOSE 18500 18501
 ENTRYPOINT ["/usr/bin/oscam"] 
